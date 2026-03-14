@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chai Paratha - A Cinematic Experience</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Ionicons for minimal icon buttons -->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</head>
+<body>
+
+    <!-- Floating Navigation -->
+    <div class="nav-container">
+        <button id="nav-toggle" aria-label="Toggle Navigation">
+            <ion-icon name="menu-outline" id="nav-icon"></ion-icon>
+        </button>
+        <div class="nav-menu" id="nav-menu">
+            <a href="#top" title="Home" class="nav-item">
+                <ion-icon name="home-outline"></ion-icon>
+            </a>
+            <a href="#why-this-website" title="Why This Website" class="nav-item">
+                <span class="icon-text">W</span>
+            </a>
+        </div>
+    </div>
+
+    <!-- Scroll Indicator -->
+    <div class="scroll-indicator" id="scroll-indicator">
+        <div class="scroll-line"></div>
+    </div>
+
+    <!-- Cinematic Scroll Section -->
+    <section id="top" class="story-section">
+        <div class="sticky-container">
+            <canvas id="video-canvas"></canvas>
+            
+            <!-- Text Overlays -->
+            <div class="text-overlay step-1">It starts simple.</div>
+            <div class="text-overlay step-2">Chai.</div>
+            <div class="text-overlay step-3">Paratha.</div>
+            <div class="text-overlay step-4">Nothing special.</div>
+            <div class="text-overlay step-5">Until you see it differently.</div>
+            <div class="text-overlay final-step">Even simple things can feel premium.</div>
+        </div>
+    </section>
+
+    <!-- Content Sections -->
+    <section id="why-this-website" class="content-section why-section">
+        <div class="content-wrapper">
+            <h2>Why This Website?</h2>
+            <p>I'm Luvya Savaria, a student and web developer currently studying in Class 11.</p>
+            <p>I created this website as a creative experiment to show how even the simplest everyday things &mdash; like chai and paratha &mdash; can be presented in a premium cinematic way through design and storytelling.</p>
+            
+            <blockquote class="dramatic-quote">
+                "Make an incision in my heart and you may see chai paratha there."
+            </blockquote>
+        </div>
+    </section>
+
+    <section class="content-section find-me-section">
+        <div class="content-wrapper">
+            <h2>Find Me Online</h2>
+            <div class="social-links">
+                <a href="https://www.instagram.com/luvya.html_/" target="_blank" rel="noopener noreferrer" class="social-btn" title="Instagram">
+                    <ion-icon name="logo-instagram"></ion-icon>
+                </a>
+                <a href="https://luvyasavaria.github.io/" target="_blank" rel="noopener noreferrer" class="social-btn" title="GitHub">
+                    <ion-icon name="logo-github"></ion-icon>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
